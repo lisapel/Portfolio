@@ -1,0 +1,110 @@
+body {
+  font-family: serif;
+  font-size: 20px;
+  color: rgb(120, 85, 163);
+}
+
+h1 {
+  color: rgb(120, 85, 163);
+  font-family: 'Fascinate Inline', cursive;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(120, 85, 163);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(120, 85, 163);
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif
+}
+
+a:hover {
+  color: palevioletred;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list a {
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.projects img {
+  width: 350px;
+  height: 300px;
+  margin: 40px;
+  ;
+  padding: 5px;
+  background-color: rgb(120, 85, 163);
+
+}
+
+.projects img:hover {
+  box-shadow: 0 0 2px 1px rgb(120, 85, 163);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact {
+  width: 40%;
+  margin-inline-start: 20px;
+}
+
+.contact a {
+  font-family: serif;
+  font-size: 20px;
+  color: rgb(120, 85, 163);
+}
+
+.contact a:hover {
+  color: palevioletred;
+}
+
+.map {
+  width: 50%;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pic {
+  width: 40%;
+}
+
+.pic img {
+  border-radius: 50%;
+  margin-left: 20px;
+  width: 70%;
+  padding-bottom: 40px;
+}
+
+.description {
+  width: 50%;
+}
