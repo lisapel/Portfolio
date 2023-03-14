@@ -5,14 +5,14 @@ body {
 }
 
 h1 {
-  color: rgb(120, 85, 163);
   font-family: 'Fascinate Inline', cursive;
   font-size: 48px;
   text-align: center;
+  margin-top:1em;
+  margin-bottom: 0.5em;
 }
 
 h2 {
-  color: rgb(120, 85, 163);
   font-family: 'Pathway Gothic One', sans-serif;
   font-size: 20px;
   text-align: center;
@@ -24,17 +24,31 @@ a {
   font-size: 15px;
   font-family: 'Times New Roman', Times, serif
 }
+nav{
+  padding-left: 1em;
+  background-color: rgb(164, 128, 207);
+  padding: 10px;
+}
+nav a{
+  color: white;
+  margin: 10px;
+}
+.list-inline li:after {
+  content:'';
+  margin:15px;
+}
 
 a:hover {
-  color: palevioletred;
+  color: black;
 }
 
 .list ul {
   list-style: none;
+  text-align: center;
 }
 
 .list a {
-  font-size: 15px;
+  font-size: 12px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -44,24 +58,15 @@ footer {
 }
 
 .projects {
+  margin-left: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
 }
 
 .projects img {
   width: 350px;
   height: 300px;
   margin: 40px;
-  ;
-  padding: 5px;
-  background-color: rgb(120, 85, 163);
-
-}
-
-.projects img:hover {
-  box-shadow: 0 0 2px 1px rgb(120, 85, 163);
 }
 
 .main {
@@ -79,11 +84,6 @@ footer {
 .contact a {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
-  color: rgb(120, 85, 163);
-}
-
-.contact a:hover {
-  color: palevioletred;
 }
 
 .map {
@@ -101,7 +101,7 @@ footer {
 
 .pic img {
   border-radius: 50%;
-  margin-left: 20px;
+  margin-left: 50px;
   width: 70%;
   padding-bottom: 40px;
 }
@@ -110,12 +110,14 @@ footer {
   width: 50%;
 }
 hr{
-  border-top: 1px solid rgb(120, 85, 163);
+  border-top: 1.5px solid rgb(105, 60, 161);
+}
+footer{
+  text-align: center;
 }
 .languages ul{
   list-style-type: circle;
   font-family:fantasy;
-
 }
 .description a{
   font-size: 20px;
